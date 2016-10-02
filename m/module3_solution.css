@@ -1,0 +1,72 @@
+.navbar-brand {
+	padding: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.navbar-brand h1{
+	margin: 0;
+	color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.navbar-toggle {
+	margin-top: 30px;
+}
+h1 {
+	margin-bottom: 30px;
+}
+h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+li {
+	text-align: center;
+}
+.container-fluid {
+	background-color: #eee;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 1000px;
+}
+.row {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+@media (max-width: 767px) {
+	.container-fluid {
+	margin-right: 30px;
+	margin-left: 30px;
+	}
+	.row {
+	padding-right: 20px;
+	padding-left: 20px;
+	}
+	.navbar-brand {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	}
+	.navbar-toggle {
+	margin-top: 10px;
+	}
+	.navbar-brand h1{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 10px; 
+	margin-bottom: 0px;
+	}
+	h1 {
+	font-size: 28px;
+	}
+	h2 {
+	font-size: 22px;
+	}
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+/********** Extra small devices only **********/
